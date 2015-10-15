@@ -28,9 +28,8 @@ class AddressWidget(forms.TextInput):
         # css = {
         #     'all': ('css/bootstrap.min.css', 'css/bootstrap-theme.min.css'),
         # }
-        js = ('js/jquery.min.js',
-              'js/bootstrap.min.js',
-              'http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',
+        js = (              
+              'https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',
               'js/jquery.geocomplete.min.js',
               'address/js/address.js')
 
